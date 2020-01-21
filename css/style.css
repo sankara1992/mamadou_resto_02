@@ -1,0 +1,64 @@
+/* feuille de style css  */
+body {
+    /* background-color: aqua; */
+    font-family: 'Caveat Brush', cursive;
+}
+
+#conteneur {
+    background: #ffffff;
+    width: 1000px;
+    margin: 0 auto; 
+}
+header {
+    /* background-color: aqua; */
+    /* height: 80px; */
+   
+}
+
+
+section {
+    background-color: white;
+   
+}
+
+footer {
+    /* background-color: blue; */
+}
+.texte1, .texte2, .texte3 {
+    float: left;
+}
+ 
+.texte1 {
+    width:250px;
+}
+
+.image1 {
+    width:300px ;
+    float: left;
+}
+.texte2 {
+    width: 300px;
+} 
+
+.image2 {
+    widows: 500px;
+    float: left;
+
+}
+.texte3 {
+    width: 300px;
+    float: left;
+
+
+}
+.image3 {
+    width: 700px;
+    float: left;
+
+}
+
+.clear {
+    clear: both;
+}
+
+
