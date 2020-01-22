@@ -1,0 +1,64 @@
+
+
+body {
+    background-color: #50d890;
+    font-family: 'Caveat Brush', cursive;
+}
+​
+#conteneur {
+    margin: 0 auto;
+    width: 800px;
+    background: url(../img/motif.jpg);
+    text-align: center;
+}
+​
+/* en-tête de la page */
+header {
+    background: url(../img/planches.jpg);
+    height: 400px;
+}
+​
+.zoneheader {
+    /* background-color: antiquewhite; */
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+​
+/* pied de page */
+footer {
+    height: 300px;
+}
+​
+/* la class qui fait flotter à gauche les 6 div */
+.zone {
+    float: left;
+}
+​
+.story {
+    width: 320px;
+}
+​
+.fare {
+    width: 294px;
+}
+​
+.drink {
+    width: 343px;
+}
+​
+.cerf img {
+    z-index: 2;
+    position: relative;
+    left: 60px;
+}
+​
+#triangle {
+    z-index: 1;
+    border-top : 100px solid #cc0066;
+    border-left : 100px solid transparent;
+    display : inline-block;
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
